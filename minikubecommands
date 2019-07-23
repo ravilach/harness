@@ -4,9 +4,10 @@
 brew cask remove minikube
 brew remove kubernetes-cli
 
-##Install
+##Install/Start
 brew update
 brew cask install minikube
+minikube start
 minikube config set memory 8128
 minikube dashboard
 
