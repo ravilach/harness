@@ -2,6 +2,14 @@
 #Commands made to be run in a terminal. 
 #Folder running commands local to YAML. Can change folder / give path. 
 
+##Brew
+#Can get from https://brew.sh/
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap caskroom/cask
+
+##Virtual Box
+brew cask install virtualbox
+
 ##Remove
 brew cask remove minikube
 brew remove kubernetes-cli
