@@ -37,4 +37,5 @@ kubectl delete service kung-fu-canary
 kubectl get services
 
 ##Stop
+minikube stop
 minikube delete
