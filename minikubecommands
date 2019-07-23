@@ -1,4 +1,6 @@
 ###Minikube Commands###
+#Commands made to be run in a terminal. 
+#Folder running commands local to YAML. Can change folder / give path. 
 
 ##Remove
 brew cask remove minikube
