@@ -10,10 +10,6 @@ brew tap caskroom/cask
 ##Virtual Box
 brew cask install virtualbox
 
-##Remove
-brew cask remove minikube
-brew remove kubernetes-cli
-
 ##Install/Start
 brew update
 brew cask install minikube
@@ -40,12 +36,16 @@ kubectl expose deployment kung-fu-canary --port=80 --type=LoadBalancer
 kubectl describe service kung-fu-canary
 minikube service kung-fu-canary
 
-#Delete
+#Delete K8 Resources
 kubectl delete deploy/kung-fu-canary
 kubectl get pods
 kubectl delete service kung-fu-canary
 kubectl get services
 
-##Stop
+##Stop Minikube
 minikube stop
 minikube delete
+
+##Remove From your System
+brew cask remove minikube
+brew remove kubernetes-cli
