@@ -22,7 +22,7 @@ podID:
 kubectl describe pod pod_id
 
 #Scale
-kubectl scale --current-replicas=3 --replicas=4 deployment/kung-fu-canary”
+kubectl scale --current-replicas=3 --replicas=4 deployment/kung-fu-canary
 
 #Expose
 kubectl expose deployment kung-fu-canary --port=80 --type=LoadBalancer
