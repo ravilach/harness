@@ -19,7 +19,7 @@ minikube dashboard
 
 #Describe
 kubectl get pods
-podID:
+#pod_id to look at:
 kubectl describe pod pod_id
 
 #Scale
